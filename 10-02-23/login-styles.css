@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.login-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border: 1px solid #dbdbdb;
+	box-shadow: 0px 0px 5px #dbdbdb;
+	padding: 40px;
+}
+
+.logo img {
+	width: 175px;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+	background-color: #fafafa;
+	border: 1px solid #dbdbdb;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 14px;
+}
+
+button {
+	background-color: #3897f0;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.or-divider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.or-divider span {
+	background-color: #fff;
+	padding: 0 10px;
+	color: #8e8e8e;
+	font-size: 14px;
+}
+
+a {
+	color: #3897f0;
+	font-size: 14px;
+}
